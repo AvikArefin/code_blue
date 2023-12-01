@@ -1,0 +1,30 @@
+name: codeblue
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.4 <4.0.0'
+
+dependencies:
+  direct_caller_sim_choice: ^1.0.5
+  flutter:
+    sdk: flutter
+  flutter_bluetooth_serial_ble: ^0.5.0
+  flutter_sms: ^2.3.3
+  geolocator: ^10.1.0
+  geocoding: ^2.1.1
+  permission_handler: ^11.1.0
+  # fluttertoast: ^8.2.4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+  - assets/data.json
